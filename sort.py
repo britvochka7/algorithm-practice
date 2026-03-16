@@ -6,7 +6,7 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
-#добавили коментарии 
+#добавили коментарии /////
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
